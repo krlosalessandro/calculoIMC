@@ -1,0 +1,15 @@
+body {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+#paragrafo-resultado{
+    margin-top: 50px;
+}
+input{
+width: 200px;
+margin-top: 10px;
+}
+
+

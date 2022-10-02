@@ -12,23 +12,26 @@
 <body>
     <h1>IMC - índice de massa corporal</h1>
     <p> <label for="input-weith"> INFORME SEU MASSA (kg)</label> <br>
-        <input id="input-weith" type="number" value="84" step="0.1"> 
+        <input id="input-weith" type="number" value="84" step="0.1">
     </p>
 
     <p>
         <label for="input-height"> INFORME SUA ALTURA (m)</label> <br>
-        <input id="input-height" type="number" value="1.70" step="0.01"> 
+        <input id="input-height" type="number" value="1.70" step="0.01">
     </p>
 
-    <P>
+    <!--<P>
       <button id="button-calculate-imc"> calcular IMC</button>  
-    </P>
+    </P>-->
 
-    <P id="paragrafo-resultado">O IMC desse dados é: <strong id="imc-result"> </strong> </P>
+    <div class="resultado">
+        <h2 class="title-resultado"> Resultado </h2>
+        <P id="paragrafo-resultado">O IMC dessa pessoa é: <strong id="imc-result"> </strong> </P>
 
-    <p id="praragrafo-grau"> Este resultado considera que você está na faixa: <strong id="grauIMC"> </strong></p>
-    
-        <script defer src="./js/script.js"></script>
+        <p id="praragrafo-grau"> Este resultado considera que você está na faixa: <strong id="grauIMC"> </strong></p>
+    </div>
+
+    <script defer src="./js/script.js"></script>
 </body>
 
 </html>
